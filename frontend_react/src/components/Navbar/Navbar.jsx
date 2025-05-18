@@ -7,7 +7,8 @@ const Navbar = () => {
         <div>
             <img src={images.logo} alt="logo" />
         </div>
-        
+
+          
     </nav>
   )
 }
