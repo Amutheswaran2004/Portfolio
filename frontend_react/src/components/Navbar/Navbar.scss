@@ -1,0 +1,48 @@
+.app__navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color: rgb(225, 225, 225, 0.25);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    z-index: 2;
+    position: fixed;
+}
+
+.app__navbar-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+
+    img{
+        width: 100px;
+        height: 50px;
+        object-fit: contain;
+    
+        @media screen and (min-width: 2000px){
+            width: 180px;
+            height: 40px;
+            
+        }
+    }
+    
+}
+.app__navbar-links{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+        margin: 0 1rem;
+        list-style: none;
+        cursor: pointer;
+    } 
+
+
+    
+    }
+    
